@@ -1,0 +1,1 @@
+macpo.sh driver.f sweep.f -I/work/02681/ankitg/installs/perfexpert_install/include -g -L /work/01174/ashay/apps/binutils/lib --macpo:disable-sampling --macpo:instrument=sweep -L/work/02681/ankitg/installs/perfexpert_install/lib -L/work/02681/ankitg/installs/libelf/lib -Wl,-rpath=/work/02681/ankitg/installs/libelf/lib -lmrt -lstdc++ -ldl -rdynamic -lelf -lbfd -liberty -lz -o macpo
